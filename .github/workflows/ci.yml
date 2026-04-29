@@ -24,3 +24,6 @@ jobs:
 
       - name: Push Backend Image
         run: docker push riiiitiiiika/django-backend:latest
+
+      - name: Deploy to Render
+        run: curl "https://api.render.com/deploy/srv-d7opp0osfn5c73fnphgg?key=8u4cYKxhdJE"
